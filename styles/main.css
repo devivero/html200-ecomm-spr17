@@ -9,10 +9,10 @@ p {
   color: #2d2d2d;
 }
 
-/* TODO: size images manually so this is not necessary */
+/* TODO: size images manually so this is not necessary
 img {
   max-height: 20rem;
-}
+}*/
 
 /***************** NAV *****************/
 nav a{
@@ -35,7 +35,7 @@ nav a:hover {
 /**************** HERO *****************/
 
 header img {
-  max-height: 6rem;
+  /*max-height: 6rem;*/
 }
 
 h1 .logo-w {
@@ -63,7 +63,7 @@ input[type="submit"] {
 .item{
   padding: 5px;
   width: 250px;
-  height: 500px;
+  height: auto;
   border: 1px black solid;
 }
 
