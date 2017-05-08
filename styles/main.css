@@ -15,9 +15,21 @@ img {
 }
 
 /***************** NAV *****************/
+nav a{
+  color: white;
+}
 
 nav a:hover {
   text-decoration: underline;
+  color: black;
+}
+
+.navigation {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  background: #3D7FCF;
+  padding: 1rem;
 }
 
 /**************** HERO *****************/
@@ -42,6 +54,18 @@ input[type="submit"] {
 }
 
 /*********** PRODUCTS SECTION ***********/
+.item-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.item{
+  padding: 5px;
+  width: 250px;
+  height: 500px;
+  border: 1px black solid;
+}
 
 section {
   padding: 0 .75rem;
