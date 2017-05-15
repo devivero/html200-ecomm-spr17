@@ -76,3 +76,17 @@ function addCart (value) {
     }
   }
 }
+
+function removeCart (value) {
+  event.preventDefault();
+
+  for (var index = 0; index < cart.length; index++) {
+    if (cart[index].id == value){
+      var itemToRemove = cart[index];
+      cart.splice(index, 1);
+      console.log("Removed " + itemToRemove.name + " from cart.");
+      console.log(cart.length);
+      return;
+    }
+  }
+}
