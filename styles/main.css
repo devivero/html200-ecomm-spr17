@@ -1,5 +1,5 @@
 body {
-  font-size: 100;
+  /*font-size: 140%;*/
   font-family: Montserrat, "open sans", Helvetica, Arial, sans-serif;
 }
 
@@ -69,7 +69,7 @@ input[type="submit"] {
   background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
   border-radius: 5px;
-  font-size: .75rem;
+  font-size: 1.25rem;
   color: white;
 }
 
