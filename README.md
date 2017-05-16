@@ -70,4 +70,7 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing 
-[update this section with information about the testing steps you took to ensure site quality]
+I use Google Chrome to check the behaviour of the code while I write it. I use the console to verify if the javascript is working.
+Once the code performs the intended functionality, I save it. Then perform validation on the HTML files and CSS files.
+Then commit, push the code to github, and proceed to test the live site. If it works on my PC, I try on my mobile to see
+how it adjusts to different screen. If the experience is as expected, then work complete.
