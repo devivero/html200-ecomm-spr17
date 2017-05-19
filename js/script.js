@@ -73,6 +73,8 @@ function addCart (value) {
       console.log("Added " + itemToAdd.name + " to cart.");
       console.log(cart.length);
       /*console.log(value);*/
+      var container = document.getElementById("cart-quantity");
+      container.innerHTML = "<i style='font-size:1.5rem;color:red;font-family: impact, times, serif;'>" + cart.length + "</i>";
     }
   }
 }
