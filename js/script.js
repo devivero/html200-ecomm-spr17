@@ -88,6 +88,8 @@ function removeCart (value) {
       cart.splice(index, 1);
       console.log("Removed " + itemToRemove.name + " from cart.");
       console.log(cart.length);
+      var container = document.getElementById("cart-quantity");
+      container.innerHTML = "<i style='font-size:1.5rem;color:red;font-family: impact, times, serif;'>" + cart.length + "</i>";
       return;
     }
   }
